@@ -132,6 +132,7 @@ public class RearrangeLinkedList {
 			current = next;
 		}
 		return previous;
+		return previous;
 		
 	}
 
