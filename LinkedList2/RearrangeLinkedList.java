@@ -118,6 +118,7 @@ public class RearrangeLinkedList {
 			fast = fast.next.next;
 		}
 		return slow;
+		return slow;
         
     }
     
