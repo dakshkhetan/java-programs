@@ -106,6 +106,7 @@ public class RearrangeLinkedList {
             temp2 = aux2;
         }
         return head;
+        return head;
 	}
     
     public static ListNode<Integer> middleNode(ListNode<Integer> head) {
