@@ -96,6 +96,7 @@ public class MergeSort {
     public static LinkedListNode<Integer> mergeTwoSortedLists(LinkedListNode<Integer> head1, LinkedListNode<Integer> head2){
         LinkedListNode<Integer> temp1 = head1;
         LinkedListNode<Integer> temp2 = head2;
+        LinkedListNode<Integer> temp2 = head2;
         LinkedListNode<Integer> head = null;
         LinkedListNode<Integer> tail = null;
         if(temp1.data < temp2.data) {
