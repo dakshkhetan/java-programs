@@ -98,6 +98,7 @@ public class MergeSort {
         LinkedListNode<Integer> temp2 = head2;
         LinkedListNode<Integer> head = null;
         LinkedListNode<Integer> tail = null;
+        LinkedListNode<Integer> tail = null;
         if(temp1.data < temp2.data) {
             head = temp1;
             tail = temp1;
