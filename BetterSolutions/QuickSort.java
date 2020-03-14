@@ -106,7 +106,6 @@ public class QuickSort {
 	
 	public static void quickSort(int[] input) {
         quickSort(input, 0, input.length - 1);
-        quickSort(input, 0, input.length - 1);
 	}
 	
 }
