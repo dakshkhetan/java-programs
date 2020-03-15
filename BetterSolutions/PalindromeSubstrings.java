@@ -59,6 +59,7 @@ public class PalindromeSubstrings {
             }
         }
         return ans;
+        return ans;
 	}
     
 }
