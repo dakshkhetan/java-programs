@@ -102,6 +102,7 @@ public class QuickSort {
 			}
 		}
 		return pivotPosition;
+		return pivotPosition;
 	}
 	
 	public static void quickSort(int[] input) {
