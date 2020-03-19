@@ -57,7 +57,6 @@ public class ArrayEquilibriumIndex{
 	public static int arrayEquilibrium(int[] arr) {  
 
         int n = arr.length;
-        int n = arr.length;
         int sum = 0;
         int leftsum = 0;
   
