@@ -74,12 +74,6 @@ public class SwapAlternate {
 			arr[i] = arr[i+1];
 			arr[i+1] = x;
 		}
-      
-		/* for(i=0; i<n; i++) {
-			System.out.print(arr[i] + " ");
-		}
-        */
-
 	}
 	
 }
