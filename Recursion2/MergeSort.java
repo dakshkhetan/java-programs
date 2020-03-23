@@ -105,7 +105,6 @@ public class MergeSort {
 		
         int left = 0, right = arr.length - 1;
 		mergeSortFunction(arr, left, right);
-		mergeSortFunction(arr, left, right);
 		
 	}
 }
