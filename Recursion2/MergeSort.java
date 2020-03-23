@@ -93,7 +93,6 @@ public class MergeSort {
 		
 		while(j <= end) {
 			mergedArray[k++] = arr[j++];
-			mergedArray[k++] = arr[j++];
 		}
 		
 		for(i = 0; i < mergedArray.length; i++) {
@@ -105,6 +104,7 @@ public class MergeSort {
 	public static void mergeSort(int[] arr){
 		
         int left = 0, right = arr.length - 1;
+		mergeSortFunction(arr, left, right);
 		mergeSortFunction(arr, left, right);
 		
 	}
