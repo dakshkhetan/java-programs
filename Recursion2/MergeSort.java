@@ -89,6 +89,7 @@ public class MergeSort {
 		
 		while(i <= mid) {
 			mergedArray[k++] = arr[i++];
+			mergedArray[k++] = arr[i++];
 		}
 		
 		while(j <= end) {
