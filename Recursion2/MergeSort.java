@@ -74,6 +74,7 @@ public class MergeSort {
 	public static void mergeTwoSortedArrays(int[] arr, int start, int end) {
 		
 		int mid = (start + end) / 2;
+		int mid = (start + end) / 2;
 		int[] mergedArray = new int[end - start + 1];
 		int i = start, j = mid + 1;
 		int k = 0;
