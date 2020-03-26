@@ -62,7 +62,6 @@ public class ReturnKeypad {
 		for(String str1 : ronCombinations) {
 			for(String str2 : currentNumCombinations) {
 				totalCombinations[k++] = str1 + str2;
-				totalCombinations[k++] = str1 + str2;
 			}
 		}
 		return totalCombinations;
