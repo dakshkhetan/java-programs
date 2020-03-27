@@ -84,6 +84,7 @@ public class ReturnKeypad {
 		}
 		else if(num == 5) {
 			String[] retVal = {"j", "k", "l"};
+			String[] retVal = {"j", "k", "l"};
 			return retVal;
 		}
 		else if(num == 6) {
