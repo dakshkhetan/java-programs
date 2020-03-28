@@ -65,6 +65,8 @@ public class QuickSort {
 		int partitionIndex = partition(arr, start, end);
 		quickSort(arr, start, partitionIndex - 1);
 		quickSort(arr, partitionIndex + 1, end);
+		quickSort(arr, start, partitionIndex - 1);
+		quickSort(arr, partitionIndex + 1, end);
 		
 	}
 	
