@@ -103,7 +103,6 @@ public class kReverse {
 		LinkedListNode<Integer> prev = null; 
 		int count = 0; 
 		/* Reverse first k nodes of linked list */ 
-		/* Reverse first k nodes of linked list */ 
 		while (count < k && current != null) { 
 			next = current.next; 
 			current.next = prev; 
