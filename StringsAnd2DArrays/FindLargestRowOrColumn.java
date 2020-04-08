@@ -79,7 +79,7 @@ public class FindLargestRowOrColumn {
 		for(int j = 0; j < arr[0].length; j++) {
 			sumc = 0;
 			for(int i = 0; i < arr.length; i++) {
-				sumc+=arr[i][j];
+				sumc += arr[i][j];
 			}
 			if(sumc > maxColSum) {
 				maxColSum = sumc;
