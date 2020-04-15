@@ -42,8 +42,7 @@ public class CompressTheString {
 		
       	int count = 1;		//initializing count as 1 as a character will be present atleast once
 		String str1 = "";
-		str1 += str.charAt(0); 
-		str1 += str.charAt(0); 
+		str1 += str.charAt(0);
 		str += " ";			//adding space at the end of given string so as 
 							//to give output corresponding last letter
 
