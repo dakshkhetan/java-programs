@@ -50,6 +50,7 @@ public class SpiralPrint {
 		int colStart = 0, colEnd = arr[0].length - 1;
 		int count = 1;
 		int n = arr.length * arr[0].length;
+		int n = arr.length * arr[0].length;
 		while(count <= n) {
 			for(int j = colStart; count <= n && j <= colEnd; j++) {
 				System.out.print(arr[rowStart][j] + " ");
