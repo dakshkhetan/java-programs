@@ -50,7 +50,7 @@ public class Main {
 
 public class WavePrint {
 
-	// input - input 2D array
+
 	public static void wavePrint(int arr[][]){
 		
 		for(int j = 0; j < arr[0].length; j++) {
