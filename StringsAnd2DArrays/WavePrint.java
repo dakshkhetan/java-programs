@@ -54,7 +54,7 @@ public class WavePrint {
 	public static void wavePrint(int arr[][]){
 		
 		for(int j = 0; j < arr[0].length; j++) {
-			if(j%2 == 0) {
+			if(j %2 == 0) {
 				for(int i = 0; i < arr.length; i++) {
 					System.out.print(arr[i][j] + " ");
 				}
