@@ -46,7 +46,7 @@ public class CompressTheString {
 		str += " ";			//adding space at the end of given string so as 
 							//to give output corresponding last letter
 
-		for (int i = 1; i < str.length() ; i++) { 
+		for (int i = 1; i < str.length() ;i++) { 
 			if(str.charAt(i) == str.charAt(i-1)) {
 				count++;
 			}
